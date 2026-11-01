@@ -1,0 +1,25 @@
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Données et index générés (reconstruits par scripts/build_index.py)
+data/raw/
+data/processed/
+faiss_index/
+
+# Rapports bruts régénérés à chaque exécution (les résumés .md / .json sont versionnés)
+reports/tests/junit.xml
+
+# Divers
+.DS_Store
+.idea/
+.vscode/
