@@ -1,0 +1,104 @@
+id,category,question,ground_truth,answer,retrieved_titles,latency_ms,hit,reciprocal_rank,exact_match,token_f1,semantic_similarity,verdict,faithfulness,answer_relevancy,llm_context_precision_with_reference,context_recall
+q01,factuelle,"Quand et où joue le groupe Psykup à Toulouse, et combien coûte la place ?","Psykup, groupe de metal, joue le samedi 12 décembre 2026 à 20h00 au Metronum (2 Rond-Point Madame de Mondonville, Toulouse). Les places sont à partir de 25,5 €.","**Psykup**
+- **Date** : Samedi 12 décembre 2026 à 20h00
+- **Lieu** : Le Metronum, 2 Rond-Point Madame de Mondonville, 31200 Toulouse
+- **Tarif** : À partir de 25,5 €","Psykup | Spectacle Du simple au double | Spike and the Gimme Gimmes | ""CUPIDON EST MALADE"" par le Théâtre du Pavé | Quel super-héros es-tu ?",1252,1.0,1.0,0.0,0.7778,0.9305,correcte,1.0,,0.9999999999,1.0
+q02,recommandation,Je cherche un concert de rap en décembre 2026 à Toulouse.,"Théo Juice and the Sexy Music Live Band (rap français / RnB) se produit le samedi 12 décembre 2026 à 19h30 au Rex de Toulouse, à partir de 25,5 €.","Aucun concert de rap n'est prévu en décembre 2026 à Toulouse dans les événements disponibles.
+
+En revanche, voici un événement proche (rap) déjà passé :
+- **Bloodysanji**
+  *19 mars 2026* – Le Rex de Toulouse
+  Tarif : 18€ (prévente) / 20€ (sur place)","""La Bèstio dóu Vacarès"" + Naissance des prophètes (Mànu Théron, Damien Toumi, Abdelhafid Douli, Omar Benbia, Salvio la Rocca) - Occitania X Cave Po | ""Naissance des prophètes"" (Mànu Théron, Damien Toumi,Abdelhafid Douli, Omar Benbia & Salvio la Rocca) - Festival Occitania X Cave Po | ""Naissance des prophètes"" amb Mànu Théron, Malik Ziad, Damien Toumi, Hafid Doul, Mbarek Foulani - Festival Occitania X Cave Po' | Concert de Noël | Bloodysanji",862,0.0,0.0,0.0,0.2647,0.8971,correcte,1.0,,0.0,0.0
+q03,recommandation,Y a-t-il une soirée techno gratuite prévue début décembre 2026 ?,"Oui, la soirée ElectroNyx Hard Techno a lieu le vendredi 4 décembre 2026 à partir de 21h00 au Little O'Clock (75 allées Jean Jaurès). L'entrée est gratuite et le line-up est 100 % féminin (Voluptia, La Vachette, Rorenu).","Non, aucun événement techno gratuit n'est prévu début décembre 2026 dans la liste.
+
+**Alternative proche :**
+- **MARTIN DUPONT + ESTETICA NOIR** (dark wave, post-punk, etc.)
+  *Date :* 5 décembre 2026 à 20h
+  *Lieu :* Le Metronum, 2 Rond-Point Madame de Mondonville, 31200 Toulouse
+  *Tarif :* À partir de 22,61 €",Hard Halloween 2026 XXL | 4e Forum des Futurs Désirables | House to Techno by AAW | La science-fiction peut-elle sortir de la dystopie ? | MARTIN DUPONT + ESTETICA NOIR @Setmana Santa 2026 - Toulouse,1067,0.0,0.0,0.0,0.25,0.8892,correcte,0.875,,0.0,0.0
+q04,recommandation,Existe-t-il des visites guidées accessibles aux personnes sourdes en langue des signes en novembre 2026 ?,"Oui, une visite guidée interprétée en Langue des Signes Française (LSF) de l'exposition « Les vies de la photographie » a lieu le samedi 21 novembre 2026 à 14h30 au Château d'Eau (place Laganne). Tarif : 8 € plein, 6 € ou 3 € réduit.","Oui, voici une visite guidée accessible en langue des signes en novembre 2026 :
+
+**Visite guidée en LSF**
+- **Dates** : Samedi 21 novembre 2026 à 14h30
+- **Lieu** : Le Château d'Eau, Place Laganne, 31300 Toulouse
+- **Tarif** : 8€ (plein) / 6€ ou 3€ (réduit)","4e Forum des Futurs Désirables | Visite guidée en LSF | Visite guidée adaptée aux personnes en situation de handicap | Et si on voyageait autrement, à l'écoute des paysages, des voix et des langues ? | Découvrir l'écho des signes",831,1.0,0.5,0.0,0.716,0.9427,correcte,1.0,,0.49999999995,1.0
+q05,factuelle,Quelle exposition photo en plein air peut-on voir gratuitement au Jardin Royal cet hiver ?,"L'exposition photographique « Bialowieza, la forêt vivante de Lech & Simona » est installée sur les grilles d'entrée du Jardin Royal (rue Ozenne) du 5 décembre 2026 au 27 février 2027. Elle est gratuite et visible sans limite d'horaires.","Voici l'exposition photo en plein air gratuite au Jardin Royal cet hiver :
+
+**Bialowieza, la forêt vivante de Lech & Simona**
+- **Dates** : du 5 décembre 2026 au 27 février 2027
+- **Lieu** : Grilles d'entrée du Jardin Royal (rue Ozenne)
+- **Tarif** : Gratuit et sans limite d'horaires","Visite guidée de l'exposition ""Les vie de la photographie"" | Observation des nuages au Jardin des Plantes | Visite de l'exposition avec Nathalie Boulouch, commissaire | Bialowieza, la forêt vivante de Lech & Simona | Performance musicale au coeur de l'exposition avec Joris Ragel",804,1.0,0.25,0.0,0.7381,0.9687,correcte,1.0,,0.32499999998375,1.0
+q06,factuelle,Quel est le tarif de la visite de l'exposition Ivresse au musée Paul-Dupuy ?,"La visite de l'exposition « Ivresse » au Musée des Arts Précieux Paul-Dupuy (13 rue de la Pleau) coûte 5 € en plein tarif et 3 € en tarif réduit. Une visite est prévue le mardi 3 novembre 2026 à 15h30, pour un public à partir de 16 ans.","Voici les tarifs pour la visite de l'exposition **IVRESSE** au Musée des Arts Précieux Paul-Dupuy :
+
+- **Plein tarif** : 5€
+- **Tarif réduit** : 3€
+
+*(Tous les événements listés ont les mêmes tarifs.)*",Visite Exposition IVRESSE | Visite Exposition IVRESSE | Visite Exposition IVRESSE | Visite Exposition IVRESSE | Visite Exposition IVRESSE,672,0.0,0.0,0.0,0.5128,0.9483,correcte,1.0,,0.99999999998,0.5
+q07,recommandation,Quelle activité au musée est proposée pour les bébés de moins de 2 ans ?,"Le Musée des Augustins propose « Bébé ô musée », un parcours sensoriel pour les bébés de 6 mois à 2 ans avec un parent accompagnateur (jeux, lectures, chansons), par exemple le samedi 16 janvier 2027 à 9h30.","Voici les activités pour bébés de moins de 2 ans au Musée des Augustins :
+
+**Bébé ô musée**
+- **Date** : Prochaine séance le **dimanche 13 décembre 2026** à 09h30
+- **Lieu** : Musée des Augustins, 21 rue de Metz, Toulouse
+- **Tarif** : Gratuit pour l'enfant (un seul parent accompagnateur gratuit)
+- **Durée** : 45 minutes
+- **Public** : Bébés de 6 mois à 2 ans
+
+*Les autres séances listées sont déjà passées (octobre 2026) ou futures (janvier 2027).*",Bébé ô musée (6 mois - 2 ans) | Bébé ô musée (6 mois - 2 ans) | Bébé ô musée (6 mois - 2 ans) | Bébé ô musée (6 mois - 2 ans) | Bébé ô musée (6 mois - 2 ans),1287,1.0,1.0,0.0,0.4151,0.9361,correcte,0.875,,0.99999999998,1.0
+q08,factuelle,Quand a lieu la master-class du pianiste Bertrand Chamayou et faut-il payer ?,"La master-class de Bertrand Chamayou (piano) a lieu le mercredi 18 novembre 2026 à 17h30 au Conservatoire, Espace Varèse (17 rue Larrey). L'entrée est libre dans la limite des places disponibles.","**Master-class, Bertrand Chamayou**
+- **Date** : Mercredi 18 novembre 2026, 17h30
+- **Lieu** : CRR-Espace Varèse, 17 rue Larrey, Toulouse
+- **Tarif** : Entrée libre dans la limite des places disponibles","Master-class, Bertrand Chamayou | Master-class | Master-Class | Master-class | Master-class",711,1.0,1.0,0.0,0.7667,0.9305,correcte,1.0,,0.9999999999,1.0
+q09,recommandation,Je voudrais un concert country ou folk à Toulouse.,"Eloïz, artiste country / pop folk originaire de Lille, est en concert le vendredi 19 février 2027 à 19h30 au Rex de Toulouse, à partir de 24,5 €.","Voici un événement correspondant à votre demande :
+
+**Eloïz**
+- **Dates** : Vendredi 19 février 2027, 19h30
+- **Lieu** : Le Rex de Toulouse, 15 Avenue Honoré Serres, 31000 Toulouse
+- **Tarif** : À partir de 24,5 €
+- **Style** : Country, pop, folk",Eloïz | Concert | Concert | Concert | Concert,817,1.0,1.0,0.0,0.6129,0.9415,correcte,1.0,,0.9999999999,1.0
+q10,factuelle,Quand Zélie chante-t-elle à Toulouse ?,"Zélie (indie pop, chanson française) est en concert le vendredi 20 novembre 2026 à 19h30 au 16 avenue Raymond Badiou à Toulouse, à partir de 28,99 €.","Zélie chante à Toulouse le **vendredi 20 novembre 2026 à 19h30** au **16 Avenue Raymond Badiou, 31300 Toulouse**.
+
+Tarif : à partir de **28,99 €**.","ZÉLIE à TOULOUSE | ZILY à Toulouse (31) Festival Rio Loco | [Saison musicale] Concert Jérémy Rollando ""ZEF"" | Concert | Céline Aviani",852,1.0,1.0,0.0,0.7843,0.9497,correcte,1.0,,0.9999999999,1.0
+q11,recommandation,Quelle conférence sur les réfugiés pendant la Seconde Guerre mondiale est programmée en novembre 2026 ?,"La conférence « L'Aveyron, terre de refuge pendant la Seconde Guerre mondiale ? », avec Florence Delzons et Noëmie Leroy, a lieu le mardi 24 novembre 2026 à 18h30 au Musée départemental de la Résistance et de la Déportation (52 allée des Demoiselles). Entrée libre dans la limite des places disponibles.","Voici l'événement correspondant à votre demande :
+
+**L'Aveyron, terre de refuge pendant la Seconde Guerre mondiale ?**
+- **Dates** : Mardi 24 novembre 2026 à 18h30
+- **Lieu** : Musée départemental de la Résistance et de la Déportation, 52 allée des Demoiselles, 31400 Toulouse
+- **Tarif** : Entrée libre ou sur réservation (selon les événements du MdRD)",Conférence de l'historienne Caroline Piketty | Festival l'Histoire à venir | Freedom Fields | Novembre au MdRD | 4e Forum des Futurs Désirables,970,0.0,0.0,0.0,0.66,0.9362,correcte,1.0,,0.249999999975,1.0
+q12,factuelle,Où peut-on participer à un tournoi de jeux vidéo en novembre 2026 ?,"Un tournoi de jeux vidéo (sport, combat, réflexion) a lieu le samedi 21 novembre 2026 de 14h à 17h à la Médiathèque Grand M (37 avenue de Reynerie, quartier Mirail / Reynerie).","Voici les tournois de jeux vidéo en novembre 2026 à Toulouse :
+
+**Tournoi de jeux vidéo**
+- **Dates** : Samedi 7 novembre 2026, 14h-17h
+- **Lieu** : Médiathèque Grand M, 37 Avenue de Reynerie, 31100 Toulouse
+- **Tarif** : Non précisé
+- **Lien** : [Tournoi du 7 novembre](https://openagenda.com/bibliotheques-de-toulouse/events/tournoi-de-jeux-video-5159350)
+
+*(Le tournoi du 21 novembre est déjà passé.)*",Tournoi de jeux vidéo | Tournoi de jeux vidéo | Tournoi de jeux vidéo | Tournoi de jeux vidéo | Animation jeux vidéo,1081,1.0,1.0,0.0,0.4615,0.9188,correcte,0.6666666666666666,,0.9999999999,1.0
+q13,factuelle,Quel spectacle de théâtre corporel et musical est proposé aux scolaires au Théâtre Jules Julien ?,"« Le dilemme du hérisson » (Cie Les Humanophones / Cie Sons de toile), théâtre corporel et musical sans parole dès 5 ans, est joué le vendredi 13 novembre 2026 à 10h et 14h30 au Théâtre Jules Julien. Tarif : 5 € par élève.","Voici le spectacle correspondant à votre demande :
+
+**Titre** : ""15 M 2"", Compagnie Le Poil flou
+**Dates** : Mercredi 4 février 2026 à 15h
+**Lieu** : Théâtre Jules Julien, 6 avenue des Écoles Jules Julien, 31400 Toulouse
+**Tarif** : 3,5 € par élève (spectacle scolaire)
+**Public** : À partir de 3 ans
+
+*Description* : Un spectacle mêlant théâtre corporel, acrobatie et musique, explorant la cohabitation et l'évasion dans un espace réduit.","""15 M 2"", Compagnie Le Poil flou | ""MINABLE UMAIN"" DE ROMANE NICOLAS | Jules Julien lit le théâtre contemporain | Jules Julien lit le théâtre contemporain | Jules Julien lit le théâtre contemporain",1221,0.0,0.0,0.0,0.3429,0.8821,correcte,1.0,,0.0,0.0
+q14,recommandation,Je cherche une soirée dub ou musiques du monde dans un bar à Saint-Cyprien.,"Nomad Frequencies (dub, électro, musiques du monde) joue le samedi 28 novembre 2026 à 21h00 au Betty Pop's (2 place du Ravelin, Saint-Cyprien), dans le cadre du Festival Culture Bar-Bars.","Voici une recommandation pour une soirée dub/électro dans un bar à Saint-Cyprien :
+
+**NOMAD FREQUENCIES**
+- **Dates** : Samedi 28 novembre 2026, 21h00
+- **Lieu** : Betty Pop's, 2 place du Ravelin, 31300 Toulouse
+- **Tarif** : Non précisé
+- **Style** : Dub digital, basses puissantes, musiques traditionnelles (Balkans, Amérique latine, Asie)
+- **Événement** : Dans le cadre du Festival Culture Bar-Bars.
+
+Aucun autre événement ne correspond exactement à ta demande pour le moment.",NOMAD FREQUENCIES | Rec_quiem | LE S.L.I.P BY LA CLIQUE | Culture musicale : Jazz des années 1940 à nos jours | Saison musicale - Noise à la Chapelle,2061,1.0,1.0,0.0,0.58,0.932,correcte,0.9,,0.9999999999,1.0
+q15,hors_perimetre,Quels concerts sont prévus à Lyon le mois prochain ?,Je n'ai pas d'information sur les événements à Lyon : la base ne couvre que les événements de Toulouse.,"Aucun concert prévu à Lyon dans les événements disponibles. Voici un événement proche à Toulouse :
+
+**Concert**
+- **Dates** : 19/01/2027 (Mardi 19 janvier 2027, 19h00)
+- **Lieu** : CRR-Espace Varèse, 17, rue Larrey, Toulouse
+- **Tarif** : Entrée libre (réservation à partir du 8 janvier 12h)
+- **Description** : Concert franco-allemand des classes de chant et de musique de chambre.",Concert | Concerts | Concert | Concert | Artistes invités,1114,,,0.0,0.1579,0.864,partiellement correcte,0.9,,0.99999999998,1.0
+q16,hors_perimetre,Quel temps fera-t-il à Toulouse samedi prochain ?,Je ne dispose pas d'informations météorologiques : je peux seulement renseigner sur les événements culturels à Toulouse.,"Aucun événement dans la liste ne propose de prévisions météo pour Toulouse.
+
+Si tu cherches des informations météo, je te conseille de consulter un site spécialisé comme Météo France ou une application dédiée.",Observation des nuages au Jardin des Plantes | Le tribunal du Quai des Savoirs : le Procès des nuages | Les satellites européens au service de la prévision météorologique | Sciences et SF : Journée thématique | Le peuple des nuages,766,,,0.0,0.16,0.9113,correcte,0.25,,0.47777777776185176,0.0
