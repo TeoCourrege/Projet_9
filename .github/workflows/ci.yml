@@ -1,0 +1,62 @@
+name: CI
+
+on:
+  push:
+     branches:
+      - main
+  pull_request:
+      branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      evaluate:
+        description: "Construire l'index et lancer l'évaluation Ragas (nécessite le secret MISTRAL_API_KEY)"
+        type: boolean
+        default: false
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Installer les dépendances (PyTorch CPU)
+        run: |
+          pip install --index-url https://download.pytorch.org/whl/cpu torch==2.14.1
+          pip install -r requirements-dev.txt
+      - name: Tests unitaires (+ couverture et résumé)
+        run: python scripts/run_tests.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rapport-tests
+          path: reports/tests/
+
+  evaluate:
+    if: github.event_name == 'workflow_dispatch' && inputs.evaluate
+    needs: tests
+    runs-on: ubuntu-latest
+    env:
+      MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: |
+          pip install --index-url https://download.pytorch.org/whl/cpu torch==2.14.1
+          pip install -r requirements-dev.txt
+      - name: Construire l'index
+        run: python scripts/build_index.py --refetch
+      - name: Tests d'intégration
+        run: pytest -m integration
+      - name: Évaluation (échoue si hit rate < 0.7)
+        run: python scripts/evaluate_rag.py --min-hit-rate 0.7
+      - uses: actions/upload-artifact@v4
+        with:
+          name: rapport-evaluation
+          path: reports/

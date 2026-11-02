@@ -1,0 +1,130 @@
+[
+  {
+    "id": "q01",
+    "question": "Quand et où joue le groupe Psykup à Toulouse, et combien coûte la place ?",
+    "ground_truth": "Psykup, groupe de metal, joue le samedi 12 décembre 2026 à 20h00 au Metronum (2 Rond-Point Madame de Mondonville, Toulouse). Les places sont à partir de 25,5 €.",
+    "expected_uids": ["17120831"],
+    "category": "factuelle",
+    "difficulty": "facile"
+  },
+  {
+    "id": "q02",
+    "question": "Je cherche un concert de rap en décembre 2026 à Toulouse.",
+    "ground_truth": "Théo Juice and the Sexy Music Live Band (rap français / RnB) se produit le samedi 12 décembre 2026 à 19h30 au Rex de Toulouse, à partir de 25,5 €.",
+    "expected_uids": ["40133147"],
+    "category": "recommandation",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "q03",
+    "question": "Y a-t-il une soirée techno gratuite prévue début décembre 2026 ?",
+    "ground_truth": "Oui, la soirée ElectroNyx Hard Techno a lieu le vendredi 4 décembre 2026 à partir de 21h00 au Little O'Clock (75 allées Jean Jaurès). L'entrée est gratuite et le line-up est 100 % féminin (Voluptia, La Vachette, Rorenu).",
+    "expected_uids": ["61571209"],
+    "category": "recommandation",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "q04",
+    "question": "Existe-t-il des visites guidées accessibles aux personnes sourdes en langue des signes en novembre 2026 ?",
+    "ground_truth": "Oui, une visite guidée interprétée en Langue des Signes Française (LSF) de l'exposition « Les vies de la photographie » a lieu le samedi 21 novembre 2026 à 14h30 au Château d'Eau (place Laganne). Tarif : 8 € plein, 6 € ou 3 € réduit.",
+    "expected_uids": ["22573658"],
+    "category": "recommandation",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "q05",
+    "question": "Quelle exposition photo en plein air peut-on voir gratuitement au Jardin Royal cet hiver ?",
+    "ground_truth": "L'exposition photographique « Bialowieza, la forêt vivante de Lech & Simona » est installée sur les grilles d'entrée du Jardin Royal (rue Ozenne) du 5 décembre 2026 au 27 février 2027. Elle est gratuite et visible sans limite d'horaires.",
+    "expected_uids": ["25377965"],
+    "category": "factuelle",
+    "difficulty": "facile"
+  },
+  {
+    "id": "q06",
+    "question": "Quel est le tarif de la visite de l'exposition Ivresse au musée Paul-Dupuy ?",
+    "ground_truth": "La visite de l'exposition « Ivresse » au Musée des Arts Précieux Paul-Dupuy (13 rue de la Pleau) coûte 5 € en plein tarif et 3 € en tarif réduit. Une visite est prévue le mardi 3 novembre 2026 à 15h30, pour un public à partir de 16 ans.",
+    "expected_uids": ["54549246"],
+    "category": "factuelle",
+    "difficulty": "facile"
+  },
+  {
+    "id": "q07",
+    "question": "Quelle activité au musée est proposée pour les bébés de moins de 2 ans ?",
+    "ground_truth": "Le Musée des Augustins propose « Bébé ô musée », un parcours sensoriel pour les bébés de 6 mois à 2 ans avec un parent accompagnateur (jeux, lectures, chansons), par exemple le samedi 16 janvier 2027 à 9h30.",
+    "expected_uids": ["84698538"],
+    "category": "recommandation",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "q08",
+    "question": "Quand a lieu la master-class du pianiste Bertrand Chamayou et faut-il payer ?",
+    "ground_truth": "La master-class de Bertrand Chamayou (piano) a lieu le mercredi 18 novembre 2026 à 17h30 au Conservatoire, Espace Varèse (17 rue Larrey). L'entrée est libre dans la limite des places disponibles.",
+    "expected_uids": ["26514702"],
+    "category": "factuelle",
+    "difficulty": "facile"
+  },
+  {
+    "id": "q09",
+    "question": "Je voudrais un concert country ou folk à Toulouse.",
+    "ground_truth": "Eloïz, artiste country / pop folk originaire de Lille, est en concert le vendredi 19 février 2027 à 19h30 au Rex de Toulouse, à partir de 24,5 €.",
+    "expected_uids": ["80359942"],
+    "category": "recommandation",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "q10",
+    "question": "Quand Zélie chante-t-elle à Toulouse ?",
+    "ground_truth": "Zélie (indie pop, chanson française) est en concert le vendredi 20 novembre 2026 à 19h30 au 16 avenue Raymond Badiou à Toulouse, à partir de 28,99 €.",
+    "expected_uids": ["98025483"],
+    "category": "factuelle",
+    "difficulty": "facile"
+  },
+  {
+    "id": "q11",
+    "question": "Quelle conférence sur les réfugiés pendant la Seconde Guerre mondiale est programmée en novembre 2026 ?",
+    "ground_truth": "La conférence « L'Aveyron, terre de refuge pendant la Seconde Guerre mondiale ? », avec Florence Delzons et Noëmie Leroy, a lieu le mardi 24 novembre 2026 à 18h30 au Musée départemental de la Résistance et de la Déportation (52 allée des Demoiselles). Entrée libre dans la limite des places disponibles.",
+    "expected_uids": ["11324938"],
+    "category": "recommandation",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "q12",
+    "question": "Où peut-on participer à un tournoi de jeux vidéo en novembre 2026 ?",
+    "ground_truth": "Un tournoi de jeux vidéo (sport, combat, réflexion) a lieu le samedi 21 novembre 2026 de 14h à 17h à la Médiathèque Grand M (37 avenue de Reynerie, quartier Mirail / Reynerie).",
+    "expected_uids": ["46964688"],
+    "category": "factuelle",
+    "difficulty": "facile"
+  },
+  {
+    "id": "q13",
+    "question": "Quel spectacle de théâtre corporel et musical est proposé aux scolaires au Théâtre Jules Julien ?",
+    "ground_truth": "« Le dilemme du hérisson » (Cie Les Humanophones / Cie Sons de toile), théâtre corporel et musical sans parole dès 5 ans, est joué le vendredi 13 novembre 2026 à 10h et 14h30 au Théâtre Jules Julien. Tarif : 5 € par élève.",
+    "expected_uids": ["79358966"],
+    "category": "factuelle",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "q14",
+    "question": "Je cherche une soirée dub ou musiques du monde dans un bar à Saint-Cyprien.",
+    "ground_truth": "Nomad Frequencies (dub, électro, musiques du monde) joue le samedi 28 novembre 2026 à 21h00 au Betty Pop's (2 place du Ravelin, Saint-Cyprien), dans le cadre du Festival Culture Bar-Bars.",
+    "expected_uids": ["25549378"],
+    "category": "recommandation",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "q15",
+    "question": "Quels concerts sont prévus à Lyon le mois prochain ?",
+    "ground_truth": "Je n'ai pas d'information sur les événements à Lyon : la base ne couvre que les événements de Toulouse.",
+    "expected_uids": [],
+    "category": "hors_perimetre",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "q16",
+    "question": "Quel temps fera-t-il à Toulouse samedi prochain ?",
+    "ground_truth": "Je ne dispose pas d'informations météorologiques : je peux seulement renseigner sur les événements culturels à Toulouse.",
+    "expected_uids": [],
+    "category": "hors_perimetre",
+    "difficulty": "facile"
+  }
+]

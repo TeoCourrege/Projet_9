@@ -1,0 +1,16 @@
+.venv/
+venv/
+env/
+.env
+.git/
+.github/
+__pycache__/
+*.pyc
+.pytest_cache/
+faiss_index/
+data/
+reports/
+tests/
+docs/
+presentation/
+*.md

@@ -1,0 +1,26 @@
+# Dépendances d'exécution (pipeline de données, RAG, API). Python 3.11 recommandé.
+# Installation : pip install -r requirements.txt
+
+# --- Données ---
+requests==2.34.2
+pandas==3.1.0
+numpy==2.4.6
+beautifulsoup4==4.15.0
+python-dotenv==1.2.4
+
+# --- RAG : LangChain + FAISS + Mistral ---
+langchain-core==1.7.0
+langchain-community==0.3.31        # vectorstore FAISS (0.3.x requis par ragas 0.4)
+langchain-text-splitters==1.1.3
+langchain-huggingface==1.2.3
+langchain-mistralai==1.1.6
+mistralai==3.4.0
+faiss-cpu==1.15.1                  # faiss-cpu plutôt que faiss-gpu : portable (Windows / macOS / Linux)
+sentence-transformers==6.2.0
+transformers==5.20.2
+torch==2.14.1
+
+# --- API ---
+fastapi==0.162.0
+uvicorn[standard]==0.54.0
+pydantic==2.14.1
