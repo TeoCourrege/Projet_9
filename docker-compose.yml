@@ -1,0 +1,14 @@
+services:
+  api:
+    build: .
+    image: puls-events-rag:latest
+    container_name: puls-events-rag
+    ports:
+      - "8000:8000"
+    # Clé Mistral et jeton admin injectés au démarrage : jamais copiés dans l'image.
+    env_file: .env
+    volumes:
+      # L'index et les données restent sur la machine hôte : un rebuild survit au redémarrage du conteneur.
+      - ./faiss_index:/app/faiss_index
+      - ./data:/app/data
+    restart: unless-stopped
