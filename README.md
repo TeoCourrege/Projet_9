@@ -1,5 +1,7 @@
 # Puls-Events : assistant RAG de recommandation d'événements culturels
 
+LIEN GITHUB: https://github.com/TeoCourrege/Projet_9
+
 POC d'un chatbot qui répond en langage naturel aux questions sur les événements culturels de **Toulouse**, en s'appuyant sur les données **Open Agenda** (1 an d'historique + événements à venir).
 
 Le système est un **RAG** (*Retrieval-Augmented Generation*) :
