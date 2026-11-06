@@ -62,7 +62,6 @@ Diagrammes UML détaillés (composants, classes, séquence de `/ask`) : [rapport
 ├── requirements.txt        # dépendances d'exécution (versions figées)
 ├── requirements-dev.txt    # + tests et évaluation (pytest, ragas)
 ├── .env.example            # modèle du fichier .env
-└── .claude/                # garde-fous Claude Code : lecture de .env interdite
 ```
 
 Ne sont **pas versionnés** (voir `.gitignore`) : `.venv/`, `.env`, `data/raw/`, `data/processed/`, `faiss_index/`. Ils sont recréés par les scripts.
